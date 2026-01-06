@@ -1,0 +1,49 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Accueil{% endblock %}
+
+{% block body %}
+
+<!-- SECTION DE PRÉSENTATION -->
+<div class="container my-5">
+    <div class="row align-items-center">
+
+        <!-- TEXTE -->
+        <div class="col-md-7">
+            <h1 class="fw-bold mb-4">Bienvenue sur mon E-Portfolio</h1>
+
+            <p class="lead">
+                Je m'appelle <strong>Simon Breugnot</strong>, je suis étudiant en BUT Réseaux & Télécommunications à l'IUT
+                de Roanne.
+            </p>
+
+            <p>
+                Passionné par le gaming, l’aviation et le football. Elles m'ont permisent 
+                d'apprendre de nombreuses compétences que vous allez découvrir.
+                J’aime apprendre, expérimenter et relever de nouveaux défis.
+                Ce site a pour objectif de présenter mon parcours, mes compétences, 
+                ainsi que les différents projets que j’ai réalisés.
+            </p>
+
+            <p>
+                N’hésitez pas à parcourir la section en savoir plus pour en apprendre d'avantage sur moi et mes passions.
+            </p>
+
+            <a class="btn btn-primary btn-lg mt-3" href="{{ path('about') }}">
+                En savoir plus sur moi →
+            </a>
+        </div>
+
+        <!-- PHOTO -->
+        <div class="col-md-5 text-center">
+            <img src="/images/moi.jpg"
+                 alt="Photo de Simon"
+                 class="img-fluid rounded shadow-lg"
+                 style="max-width: 350px;">
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}
+

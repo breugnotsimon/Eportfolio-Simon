@@ -1,0 +1,57 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}En savoir plus{% endblock %}
+
+{% block body %}
+<div class="text-center mb-5">
+    <h1 class="fw-bold">En savoir plus</h1>
+    <p class="lead">
+        Découvrez mes passions : le gaming, l’aviation et le football.
+    </p>
+</div>
+
+<!-- MES PASSIONS -->
+<h2 class="text-center mb-4 fw-bold">Mes passions</h2>
+
+<div class="row text-center">
+
+    <!-- GAMING -->
+    <div class="col-md-4 mb-4">
+        <h4 class="fw-bold text-decoration-underline">Gaming</h4>
+        <a href="#">
+            <img src="/images/gaming.jpg" class="img-fluid rounded shadow" alt="Gaming">
+        </a>
+        <p class="mt-3">
+            Le gaming est une passion qui me permet de me détendre, de développer ma réactivité,
+            d'apprendre à bien communiquer, d'apprendre la stratégie et de jouer en équipe.
+        </p>
+    </div>
+
+    <!-- AVIATION -->
+    <div class="col-md-4 mb-4">
+        <h4 class="fw-bold text-decoration-underline">Aviation</h4>
+        <a href="#">
+            <img src="/images/aviation.jpg" class="img-fluid rounded shadow" alt="Aviation">
+        </a>
+        <p class="mt-3">
+            L’aviation me passionne depuis longtemps. Je suis actuellement pilote planeur et
+            apprenti pilote avion. Cela m'as permi de dévelloper des compétences comme :
+            la rigueur, la précision, la patience, la persévérance et la confiance en soi.
+        </p>
+    </div>
+
+    <!-- FOOTBALL -->
+    <div class="col-md-4 mb-4">
+        <h4 class="fw-bold text-decoration-underline">Football</h4>
+        <a href="#">
+            <img src="/images/football.jpg" class="img-fluid rounded shadow" alt="Football">
+        </a>
+        <p class="mt-3">
+            Je suis passionné par le football depuis mon plus jeune âge et plus particulièrement
+            de l'Olympique Lyonnais qui est mon club de coeur. Pour être un bon supporter il faut être :
+            passioné, acidu sur les actualités autour du club et de suivre les matchs.
+        </p>
+    </div>
+
+</div>
+{% endblock %}
